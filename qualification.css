@@ -1,0 +1,44 @@
+
+td,th{
+	text-align:center;
+	padding:15px;
+}
+
+.table2{
+	display:block;
+	margin-top:400px;
+	margin-left:400px;
+	clear:both;
+	
+}
+.table2 tr th {
+  background-color: #4CAF50;
+  color: white;
+  
+}
+h1{
+	font-size:50px;
+	letter-spacing:3px;
+	font-weight:500;
+}
+div{
+	text-align:center;
+	
+}
+.divclass{
+	float:left;
+	width:48%;
+	
+}
+.divclass tr th{
+	text-align:left;
+}
+.divclass tr td{
+	text-align:left;
+}
+#grad1 {
+  
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(red, yellow); /* Standard syntax (must be last) */
+}
+
