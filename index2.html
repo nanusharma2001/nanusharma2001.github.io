@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+         <img src="Indian_Institute_of_Information_Technology,_Kota_Logo.png" alt="logo" class="logo" height=50px>
+          <nav>
+                  <ul>
+                    <li><a href="aboutme2.html" >About Me</a></li>
+                    <li><a href="location.html" >Location</a></li>
+                    <li><a href="semsubjects.html" >Sem subjects</a></li>
+                    <li><a href="qualification.html" >qualification</a></li>
+                    <li><a href="html.html">About HTML</a></li>
+                  </ul>
+           </nav>
+         </div>
+         </header>
+         
+    <section class="home">
+        <div class=slider>
+            <div class="slide active" style="background-image: url('slide-1.jpg');">
+                <div class="container">
+                    <div class="caption">
+                        <h1>1.Winter Collection 2020</h1>
+                        <p>Fall/Winter 2019-2020 is a season of contrasts. In one corner, designers are paying homage to the not-so-discreet lavishness of the French bourgeoisie.</p>
+                        <a href="">Shop Now</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="slide" style="background-image: url('slide-2.jpg');">
+                <div class="container">
+                    <div class="caption">
+                        <h1>2.Winter Collection 2020</h1>
+                        <p>These are the trends defining the fashion landscape in<br> Fall/Winter 2019-2020.</p>
+                        <a href="">Shop Now</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="slide" style="background-image: url('slide-3.jpg');">
+                <div class="container">
+                    <div class="caption">
+                        <h1>3.Winter Collection 2020</h1>
+                        <p>Keeping into consideration global fashion trends, this year we<br> showcase a wide range of printed and embroidered outfits in our<br> Fall Winter sale Collection 2020</p>
+                        <a href="">Shop Now</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="controls">
+            <div class="prev"><</div>
+            <div class="next">></div>
+        </div>
+        <div class="indicator">
+            
+        </div>
+    </section>
+    <div class="mar">
+        <marquee  direction="up" scrollamount="5" onmouseover="this.stop();" onmouseout="this.start();">
+            <a class="text" href="#">Letter from Secretary (HE) regarding COVID-19</a> <span class="blinking">new</span><hr>
+            <a class="text" href="#">MBA Admission: last date of application for Round 1 of GD/PI has been extended upto May 04, 2020 due Covid-19 spread.</a><hr>
+            <a class="text" href="#">Department of Management Studies, MNIT Jaipur invites application for Admission to MBA Program for AY 2020-21</a> <span class="blinking">new</span><hr>
+            <a class="text" href="#">Vacancies in other Institutions/Organizations</a> <span class="blinking">new</span><hr>
+        </marquee>
+    </div>
+    <div>
+        <ul class="ulist">
+            <li class="uli"><a class="another" href="#_parent">NIRF Data</a></li>
+            <li  class="uli"><a class="another" href="#targetframe2">ARIIA Data</a></li>
+            <li  class="uli"><a class="another" href="#targetframe2">ICT Initiative</a></li>
+            <li  class="uli"><a class="another" href="#targetframe2">Concluded Events</a></li>
+            <li  class="uli"><a class="another" href="#targetframe2">Photo Gallery</a></li>
+            <li  class="uli"><a class="another" href="#targetframe2">Media Coverage</a></li>
+        </ul>
+    </div>
+    <footer class="site-footer" role="contentinfo">
+        <nav id="footer-nav" role="navigation">
+        </nav>
+        <div id="copyright">
+            Copyright &copy; 2020 NavinSharma.&nbsp;All rights reserved.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="demo"></span> </div>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+        var d = new Date();
+        document.getElementById("demo").innerHTML = d.toDateString();
+    </script>
+</body>
+</html>
